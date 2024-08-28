@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8E39BBB7-F967-41C0-8A36-2D00CBCAC683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Domain", "ETicaretAPI.Domain\ETicaretAPI.Domain.csproj", "{D71B44DB-25E7-4518-805C-55B136AD0394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Application", "ETicaretAPI.Application\ETicaretAPI.Application.csproj", "{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B74C65B2-2E10-450B-A915-3BA0A88615DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Infrastructure", "ETicaretAPI.Infrastructure\ETicaretAPI.Infrastructure.csproj", "{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Persistance", "ETicaretAPI.Persistance\ETicaretAPI.Persistance.csproj", "{23249C52-FA41-4622-90A0-F208A5BF094D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DDC88FE8-40BC-46AD-AD15-C7B5DD0A5CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.API", "ETicaretAPI.API\ETicaretAPI.API.csproj", "{2EFC9BD6-318E-40F3-A049-BE97A499C5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71B44DB-25E7-4518-805C-55B136AD0394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71B44DB-25E7-4518-805C-55B136AD0394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71B44DB-25E7-4518-805C-55B136AD0394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71B44DB-25E7-4518-805C-55B136AD0394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23249C52-FA41-4622-90A0-F208A5BF094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23249C52-FA41-4622-90A0-F208A5BF094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23249C52-FA41-4622-90A0-F208A5BF094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23249C52-FA41-4622-90A0-F208A5BF094D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFC9BD6-318E-40F3-A049-BE97A499C5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFC9BD6-318E-40F3-A049-BE97A499C5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFC9BD6-318E-40F3-A049-BE97A499C5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFC9BD6-318E-40F3-A049-BE97A499C5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D71B44DB-25E7-4518-805C-55B136AD0394} = {8E39BBB7-F967-41C0-8A36-2D00CBCAC683}
+		{0CD77B0D-A23D-46B6-A4D5-A4492A6F0FE6} = {8E39BBB7-F967-41C0-8A36-2D00CBCAC683}
+		{5580CF86-6D4F-4EE2-BC9A-95262C3CD4AC} = {B74C65B2-2E10-450B-A915-3BA0A88615DE}
+		{23249C52-FA41-4622-90A0-F208A5BF094D} = {B74C65B2-2E10-450B-A915-3BA0A88615DE}
+		{2EFC9BD6-318E-40F3-A049-BE97A499C5A1} = {DDC88FE8-40BC-46AD-AD15-C7B5DD0A5CDA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B277510B-40F4-4CE8-8D41-6B54F3F814AD}
+	EndGlobalSection
+EndGlobal
